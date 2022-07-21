@@ -1,0 +1,19 @@
+Package: lifetimevalue
+Title: BG/NBD Model and Forecasting
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ben", "Hoffman", , "ben@benhoffman.net", role = c("aut", "cre"))
+Description: Estimates the parameters for the BG/NBD model and forcasts number of transactions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+Suggests:
+  stats4,
+  bbmle,
+  dplyr,
+  readr,
+  usethis
+LazyData: true
